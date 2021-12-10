@@ -20,6 +20,8 @@ The first data source file selected was the World Happiness Report csv file retr
 ### DATA SOURCE #2
 The second data source file selected was the Global Causes of Death other than Diseases csv file retrieved from kaggle.com. This csv file includes the number of deaths within each country for each year, in addition to, the cause of death such as conflict and terrorism, famine, pandemic, natural disaster, and other injuries from 1980 - 2020. Metrics reported are as follows: (1) Country name, (2) Year, (3) ISO_CODE, (4) Total # of Deaths, (5) Male POP, (6) Female POP, (7) Total POP, (8) GDP, and (9) GDP per capita (PCAP). 
 
+![image](https://user-images.githubusercontent.com/89491352/145508829-1559ac59-f640-4eff-866e-312b5434bba3.png)
+
 ## Data Cleanup & Analysis
 
 #### 1)	Extract: 
