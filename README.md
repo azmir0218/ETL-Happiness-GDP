@@ -61,4 +61,7 @@ The second data source file selected was the Global Causes of Death other than D
  
     • World Happiness Report: from 2008-2017 with 7 columns and 1,570 rows of data
     • Global Cause of Death from 2008-2017 with 6 columns and 9,700 rows of data
+    
+    ![image](https://user-images.githubusercontent.com/89491352/145509138-153d914a-847f-42c8-ab3e-5f43301421e6.png)
+
 
