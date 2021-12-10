@@ -16,6 +16,7 @@ Our project included two data sources extracted from Kaggle.
 
 ### DATA SOURCE #1
 The first data source file selected was the World Happiness Report csv file retrieved from kaggle.com. This csv file includes the annual reports from each participating country from 2008 - 2017.  The data used to rank countries in each report is drawn from the Gallup World Poll. Metrics reported are as follows: (1) Country name, (2) Year, (3) Life Ladder, (4) Log GDP per capita, (5) Social support, (6) Healthy life expectancy at birth, (7) Freedom to make life choices, (8) Generosity, (9) Perceptions of corruption, (10) Positive affect, (11) Negative affect.
+
 https://user-images.githubusercontent.com/89491352/145508469-998ec344-7793-41b9-8ba8-3227f3e49cb6.png
 
 ### DATA SOURCE #2
