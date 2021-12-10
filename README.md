@@ -54,6 +54,7 @@ The second data source file selected was the Global Causes of Death other than D
       table. All null values were dropped with the execution of the inner join.
 
  Cleaned and loaded file format details
+ 
     • World Happiness Report: from 2008-2017 with 7 columns and 1,570 rows of data
     • Global Cause of Death from 2008-2017 with 6 columns and 9,700 rows of data
 
