@@ -24,21 +24,36 @@ The second data source file selected was the Global Causes of Death other than D
 
 #### 1)	Extract: 
     • We started with two original data sources located on Kaggle.com as csv files. 
-    • Both files were extracted from Kaggle.com and downloaded to the computer as a separate csv files and loaded in to Jupyter Notebook using Pandas. 
+    • Both files were extracted from Kaggle.com and downloaded to the computer as a 
+      separate csv files and loaded in to Jupyter Notebook using Pandas. 
+ 
  Original file format details
+
     • World Happiness Report: from 2008-2020 with 12 columns and 1950 rows of data
     • Global Cause of Death from 1980-2017 with 10 columns and 36,860 rows of data
+
 #### 2)	Transform: 
-    • After each csv file was downloaded, they were imported into Pandas. Each file included columns with lengthy titles and decimal places.
-    • The data cleanup process included: (1) shortening of column titles in both files, (2) formatting of column cells to reduce the number of decimal places, (3) renamed the key record column to match in both tables
-Cleaned file format details
+    • After each csv file was downloaded, they were imported into Pandas. Each file 
+      included columns with lengthy titles and decimal places.
+    • The data cleanup process included: (1) shortening of column titles in both files, 
+      (2) formatting of column cells to reduce the number of decimal places, (3) renamed 
+      the key record column to match in both tables
+
+ Cleaned file format details
+
     • World Happiness Report: from 2008-2020 with 12 columns and 1950 rows of data
     • Global Cause of Death from 1980-2017 with 10 columns and 36,860 rows of data
+
 #### 3)	Load: 
-    • Upon completion of the data cleanup step, both files were prepped and ready for load into SQL.
-    • Each file possessed the common attribute of country and year. This common format structure allowed for us to use a key record to create a relational database.
-    • An inner join was executed in order to return all rows from both participating files where the key record of one table is equal to the key record of the other table. All null values were dropped with the execution of the inner join.
-Cleaned and loaded file format details
+    • Upon completion of the data cleanup step, both files were prepped and ready for 
+      load into SQL.
+    • Each file possessed the common attribute of country and year. This common format 
+      structure allowed for us to use a key record to create a relational database.
+    • An inner join was executed in order to return all rows from both participating 
+      files where the key record of one table is equal to the key record of the other 
+      table. All null values were dropped with the execution of the inner join.
+
+ Cleaned and loaded file format details
     • World Happiness Report: from 2008-2017 with 7 columns and 1,570 rows of data
     • Global Cause of Death from 2008-2017 with 6 columns and 9,700 rows of data
 
